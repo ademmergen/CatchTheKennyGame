@@ -17,78 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6VX-t5-piy">
-                                <rect key="frame" x="12" y="179" width="369" height="133"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny" translatesAutoresizingMaskIntoConstraints="NO" id="heN-Ka-p0s">
-                                        <rect key="frame" x="0.0" y="0.0" width="123" height="133"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="133" id="7h4-93-3eL"/>
-                                            <constraint firstAttribute="width" constant="123" id="LDq-8M-awa"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny" translatesAutoresizingMaskIntoConstraints="NO" id="dhn-gc-1bC">
-                                        <rect key="frame" x="123" y="0.0" width="123" height="133"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny" translatesAutoresizingMaskIntoConstraints="NO" id="qMY-eO-Dq9">
-                                        <rect key="frame" x="246" y="0.0" width="123" height="133"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="dhn-gc-1bC" firstAttribute="width" secondItem="heN-Ka-p0s" secondAttribute="width" id="EJ4-PO-R2z"/>
-                                    <constraint firstItem="qMY-eO-Dq9" firstAttribute="width" secondItem="heN-Ka-p0s" secondAttribute="width" id="LuA-g9-hyG"/>
-                                    <constraint firstItem="qMY-eO-Dq9" firstAttribute="height" secondItem="heN-Ka-p0s" secondAttribute="height" id="MLu-7P-hpC"/>
-                                    <constraint firstItem="dhn-gc-1bC" firstAttribute="height" secondItem="heN-Ka-p0s" secondAttribute="height" id="dZb-Kh-Utq"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V9C-cs-NSO">
-                                <rect key="frame" x="12" y="362" width="369" height="133"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny" translatesAutoresizingMaskIntoConstraints="NO" id="eK6-TU-hqs">
-                                        <rect key="frame" x="0.0" y="0.0" width="123" height="133"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="133" id="V2f-WI-IpG"/>
-                                            <constraint firstAttribute="width" constant="123" id="YVp-sQ-1ui"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny" translatesAutoresizingMaskIntoConstraints="NO" id="r0x-WA-pLe">
-                                        <rect key="frame" x="123" y="0.0" width="123" height="133"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny" translatesAutoresizingMaskIntoConstraints="NO" id="qg2-oj-jcx">
-                                        <rect key="frame" x="246" y="0.0" width="123" height="133"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="qg2-oj-jcx" firstAttribute="height" secondItem="eK6-TU-hqs" secondAttribute="height" id="7ag-0C-TjX"/>
-                                    <constraint firstItem="r0x-WA-pLe" firstAttribute="width" secondItem="eK6-TU-hqs" secondAttribute="width" id="kts-LH-LKH"/>
-                                    <constraint firstItem="r0x-WA-pLe" firstAttribute="height" secondItem="eK6-TU-hqs" secondAttribute="height" id="lD3-92-gab"/>
-                                    <constraint firstItem="qg2-oj-jcx" firstAttribute="width" secondItem="eK6-TU-hqs" secondAttribute="width" id="tYC-Jx-PJx"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jdu-j4-7Vb">
-                                <rect key="frame" x="12" y="545" width="369" height="133"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny" translatesAutoresizingMaskIntoConstraints="NO" id="W40-Zn-Q2G">
-                                        <rect key="frame" x="0.0" y="0.0" width="123" height="133"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="123" id="Enq-hb-Ruj"/>
-                                            <constraint firstAttribute="height" constant="133" id="ilB-mF-S2Z"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny" translatesAutoresizingMaskIntoConstraints="NO" id="8wg-ll-4BA">
-                                        <rect key="frame" x="123" y="0.0" width="123" height="133"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny" translatesAutoresizingMaskIntoConstraints="NO" id="B25-hc-qpr">
-                                        <rect key="frame" x="246" y="0.0" width="123" height="133"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="B25-hc-qpr" firstAttribute="height" secondItem="W40-Zn-Q2G" secondAttribute="height" id="Q2F-Xg-IL9"/>
-                                    <constraint firstItem="8wg-ll-4BA" firstAttribute="height" secondItem="W40-Zn-Q2G" secondAttribute="height" id="RfI-zH-lJE"/>
-                                    <constraint firstItem="B25-hc-qpr" firstAttribute="width" secondItem="W40-Zn-Q2G" secondAttribute="width" id="nhi-Rd-aXL"/>
-                                    <constraint firstItem="8wg-ll-4BA" firstAttribute="width" secondItem="W40-Zn-Q2G" secondAttribute="width" id="uzK-O1-zwS"/>
-                                </constraints>
-                            </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJj-qC-fom">
                                 <rect key="frame" x="121.66666666666669" y="119" width="150" height="50"/>
                                 <constraints>
@@ -124,14 +52,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="4jT-na-lq2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="36y-80-xwR"/>
-                            <constraint firstItem="6VX-t5-piy" firstAttribute="top" secondItem="CJj-qC-fom" secondAttribute="bottom" constant="10" id="7xI-ox-V6G"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="904-T8-ynj" secondAttribute="bottom" constant="10" id="RFu-v2-NPU"/>
                             <constraint firstItem="4jT-na-lq2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RuP-E7-d64"/>
-                            <constraint firstItem="V9C-cs-NSO" firstAttribute="top" secondItem="6VX-t5-piy" secondAttribute="bottom" constant="50" id="Uoi-Pp-5CJ"/>
-                            <constraint firstItem="6VX-t5-piy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bJ4-iE-LY5"/>
-                            <constraint firstItem="jdu-j4-7Vb" firstAttribute="top" secondItem="V9C-cs-NSO" secondAttribute="bottom" constant="50" id="d8Q-9N-CJE"/>
-                            <constraint firstItem="V9C-cs-NSO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eGB-vU-Msb"/>
-                            <constraint firstItem="jdu-j4-7Vb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fFf-9p-HXo"/>
                             <constraint firstItem="CJj-qC-fom" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jOk-lc-zXR"/>
                             <constraint firstItem="904-T8-ynj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lcS-Jx-JMC"/>
                             <constraint firstItem="CJj-qC-fom" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="mlM-JJ-83L"/>
@@ -140,15 +62,6 @@
                     </view>
                     <connections>
                         <outlet property="highscoreLabel" destination="904-T8-ynj" id="EbR-EF-gbg"/>
-                        <outlet property="kenny1" destination="heN-Ka-p0s" id="JVa-Tx-eK3"/>
-                        <outlet property="kenny2" destination="dhn-gc-1bC" id="gLi-fb-br8"/>
-                        <outlet property="kenny3" destination="qMY-eO-Dq9" id="zFU-tH-Guc"/>
-                        <outlet property="kenny4" destination="eK6-TU-hqs" id="Z5b-jC-d9Z"/>
-                        <outlet property="kenny5" destination="r0x-WA-pLe" id="zGf-rb-sYV"/>
-                        <outlet property="kenny6" destination="qg2-oj-jcx" id="dyQ-gR-Szj"/>
-                        <outlet property="kenny7" destination="W40-Zn-Q2G" id="GF3-Kx-e5w"/>
-                        <outlet property="kenny8" destination="8wg-ll-4BA" id="ap1-zd-FLn"/>
-                        <outlet property="kenny9" destination="B25-hc-qpr" id="xZk-5T-zsF"/>
                         <outlet property="scoreLabel" destination="CJj-qC-fom" id="FVQ-kV-8Pe"/>
                         <outlet property="timeLabel" destination="4jT-na-lq2" id="Cjr-6j-i7g"/>
                     </connections>
@@ -159,7 +72,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="kenny" width="272" height="366"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
